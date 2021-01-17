@@ -1,0 +1,25 @@
+instalation steps
+
+run this commands:
+
+1>git clone https://github.com/laribimahdi0/to-do-laravel-back.git 
+2>cd to-do-laravel-back 
+3>composer install
+
+-create new mysql user with name 'user' and password '12345678'.
+and new database with name 'todo_database'
+
+
+now we need to generate new jwt:secret with the floowing cammand:
+-> php artisan jwt:secret 
+after that create your migration 
+
+->php artisan migrate
+
+now you can start your server
+->php artisan server
+
+server should start at 127.0.0.1:8000/
+
+
+
